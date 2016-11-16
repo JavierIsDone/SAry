@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Lab 6</title>
+<style>
+body {background-color:maroon}
+h1   {color:white}
+h2   {color:white}
+h3   {color:white}
+h4   {color:white}
+a{text-decoration: none;color: white;line-height: 80px;display: block;}
+a:hover {background-color: white;color: maroon;}
+a{text-align: center;}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: maroon;
+    text-align: center;
+    padding: 0px 134.5px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: maroon;
+	color: white;
+}
+table, th, td {border: 1px solid white;}
+p {color: white;}
+p {font-size: 20px}
+#bob {background-color: white; font-family:Georgia, "Times New Roman", Times, serif; font-size:30px; color: maroon; 
+}
+body,td,th {
+	color: #FFF;
+}
+</style>
+
+
+</head>
+<center>
+<body>
+<ul>
+  <li><a class="active" href="http://techteach.us/WCP2016/SAry/index.html">Home</a></li>
+  <li><a href="http://techteach.us/WCP2016/SAry/Labs/index.html">Labs</a></li>
+  <li><a href="http://techteach.us/WCP2016/SAry/Bio/index.html">Bio</a></li>
+  <li><a href="http://techteach.us/WCP2016/SAry/Project/index.html">Projects</a></li>
+  <li><a href="http://techteach.us/">TechTeach</a></li>
+  <li><a href="http://www.w3schools.com/">W3Schools</a></li>
+</ul>
+    <h1>Ary Sanchez</h1>
+	<h2>Lab 6</h2>
+	<h3>WCP</h3>
+
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<p><img src="Ary.gif" width="300" height="250" /></p>
+<p>Animated Gif</p>
+<body onload="MM_preloadImages('Ary.png')">
+<p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image1','','Ary.png',1)"><img src="Ary1.png" width="700" height="600" id="Image1" /></a></p>
+<p>Rollover</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<script type="text/javascript" src="js.js"></script>
+
+<img src="Ary1.png" "width="500" height="500"border="0" name="r1" alt="j1" />
+<table width="200" border="1">
+ <tr>
+   <td><img src="Ary.png" height="200" width="200" onmouseover="document.r1.src=pic1.src;"/></td>
+   <td><img src="Ary1.png" height="200" width="200" onmouseover="document.r1.src=pic2.src;"/></td>
+   <td><img src="Ary2.png" height="200" width="200" onmouseover="document.r1.src=pic3.src;"/></td>
+   <td><img src="Ary3.png" height="200" width="200" onmouseover="document.r1.src=pic4.src;"/></td>
+ </tr>
+</body>
+</center>
+</html>
